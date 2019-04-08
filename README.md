@@ -24,15 +24,16 @@ A:
 (1) The first thing is to see if the data has a meaningful unique index. In this case in the
 Patient_Diagnosis table the patient id is one, the Patient_Treatment doesn't have one. 
 (2) Search missing data points first. In this excercise I am told that there
-	Is no missing data. 
+	is no missing data. 
 (3) Assign data type for each column, category, continuous (if so which value)
+(4) Also I will look at the relation between the tables (if all patients have treatment and vice versa)
 
  
 Based on the information provided above and the attached dataset, 
 what three questions would you like to understand prior to conducting any analysis of the data?
 (1) What is the number of patients with each treatment
 (2) what is the number of treatments per patient
-(3)
+(3) How do
 
 Data analysis questions:
 
@@ -40,7 +41,7 @@ First, the clinic would like to know the distribution of cancer types across the
  Please provide the clinic with this information.(# Done)
 The clinic wants to know how long it takes for patients to start therapy after being diagnosed, 
 which they consider to be helpful in understanding the quality of care for the patient.
- How long after being diagnosed do patients start treatment? (# almost there)
+ How long after being diagnosed do patients start treatment? (# Done)
  
  
 Which treatment regimens [i.e., drug(s)] do you think would be indicated
